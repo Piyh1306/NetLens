@@ -1,0 +1,51 @@
+export const models = [
+  {
+    name: "Random Forest",
+    accuracy: 98.2,
+    speed: "Fast",
+    advantages: ["Handles high-dimensional data well", "Resistant to overfitting", "Ranks feature importance"],
+    disadvantages: ["Larger model size", "Slower on very large trees"],
+  },
+  {
+    name: "Decision Tree",
+    accuracy: 94.6,
+    speed: "Very Fast",
+    advantages: ["Easy to interpret", "Low computation cost", "No feature scaling needed"],
+    disadvantages: ["Prone to overfitting", "Unstable to small data changes"],
+  },
+  {
+    name: "SVM",
+    accuracy: 96.8,
+    speed: "Moderate",
+    advantages: ["Effective in high-dimensional spaces", "Strong margin-based separation"],
+    disadvantages: ["Slow on large datasets", "Sensitive to kernel/parameter choice"],
+  },
+  {
+    name: "KNN",
+    accuracy: 93.1,
+    speed: "Slow",
+    advantages: ["Simple and intuitive", "No training phase required"],
+    disadvantages: ["Expensive at prediction time", "Sensitive to irrelevant features"],
+  },
+  {
+    name: "Logistic Regression",
+    accuracy: 91.4,
+    speed: "Very Fast",
+    advantages: ["Highly interpretable", "Computationally efficient", "Works well on linear boundaries"],
+    disadvantages: ["Struggles with non-linear patterns", "Sensitive to outliers"],
+  },
+  {
+    name: "Naive Bayes",
+    accuracy: 89.7,
+    speed: "Very Fast",
+    advantages: ["Performs well with limited data", "Fast training and prediction"],
+    disadvantages: ["Assumes feature independence", "Lower accuracy on complex traffic"],
+  },
+  {
+    name: "XGBoost",
+    accuracy: 99.1,
+    speed: "Fast",
+    advantages: ["State-of-the-art accuracy", "Handles missing data natively", "Built-in regularization"],
+    disadvantages: ["More complex to tune", "Higher memory usage"],
+  },
+];
